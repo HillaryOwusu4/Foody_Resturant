@@ -1,0 +1,46 @@
+.signup-page{
+    background: rgb(253, 251, 251);
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    transition: all 700ms ease-out;
+}
+
+.OpenSignup{
+animation: openSignup 700ms ease-out;
+}
+.CloseSignup{
+    animation: CloseSignup 700ms ease-out;
+}
+
+@keyframes openSignup {
+    0%{
+        opacity: 0;
+        transform: translateX(-8%);
+      }
+      50%{
+        opacity: 1;
+        transform: translateX(6%);
+      }
+      100%{
+        opacity: 1;
+        transform: translateX(0);
+      }
+}
+
+
+@keyframes CloseSignup{
+    0%{
+      opacity: 1;
+      transform: translateY(-100%);
+    }
+    50%{
+      opacity: 0.8;
+      transform: translateY(60%);
+    }
+    100%{
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }

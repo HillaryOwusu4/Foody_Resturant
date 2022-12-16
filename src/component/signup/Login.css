@@ -1,0 +1,47 @@
+
+.login-page{
+    background: rgb(253, 251, 251);
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    transition: all 700ms ease-out;
+}
+
+.Openlogin{
+    animation: openlogin 700ms ease-out;
+    }
+    .Closelogin{
+        animation: Closelogin 700ms ease-out;
+    }
+    
+    @keyframes openlogin {
+        0%{
+            opacity: 0;
+            transform: translateX(20%);
+          }
+          50%{
+            opacity: 1;
+            transform: translateX(-6%);
+          }
+          100%{
+            opacity: 1;
+            transform: translateX(0);
+          }
+    }
+    
+    
+    @keyframes Closelogin{
+        0%{
+          opacity: 1;
+          transform: translateY(-100%);
+        }
+        50%{
+          opacity: 0.8;
+          transform: translateY(60%);
+        }
+        100%{
+          opacity: 0;
+          transform: translateY(-100%);
+        }
+      }

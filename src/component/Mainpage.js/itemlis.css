@@ -1,0 +1,32 @@
+.cards{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 51px ;
+    grid-template-rows: 100px 100px 185px ;
+}
+.item1 {
+    grid-area: 2 / 1 / span 2 / span 5;
+ 
+  }
+  .item2{
+  grid-area:1/2/span 2/span 4
+  }
+
+  .parent_div {
+    width: 95%;
+    overflow-y: scroll;
+    height: 100%;
+    display:flex;
+    transition: all 600ms ease-out;
+
+  }
+  .parent_div::-webkit-scrollbar {
+    display: none;
+  }
+  /* .parent_div::-webkit-scrollbar {
+    width: 10px;
+  } */
+  .good:hover .that{
+    color: azure;
+  }
+
+ 
