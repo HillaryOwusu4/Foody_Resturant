@@ -17,7 +17,7 @@ import { useContext } from 'react';
 import PrivateRoute from './component/store/PrivateRoute';
 
 // import Menu from './component/Menu/menu';
-// jdjfskf
+
 import { Suspense } from 'react';
 import MoonLoader from 'react-spinners/MoonLoader';
 
