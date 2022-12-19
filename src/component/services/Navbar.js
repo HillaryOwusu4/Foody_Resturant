@@ -50,9 +50,9 @@ const Navbar = () => {
                         <div className="w-[70%] flex justify-center   h-full">
                             <ul className="w-[70%] h-full flex justify-around ml-[-200px] font-semibold items-center ">
                                 <Link to='/'> <li className=" hover:text-red-600">{item.home}</li></Link>
-                           && <Link to='/menu'><li className=" hover:text-red-600">{item.Menu}</li></Link>
-                                && <Link to='/about'><li className=" hover:text-red-600">{item.about}</li></Link>
-                               && <Link to='/contact'><li className=" hover:text-red-600">{item.data}</li></Link>
+                           <Link to='/menu'><li className=" hover:text-red-600">{item.Menu}</li></Link>
+                              <Link to='/about'><li className=" hover:text-red-600">{item.about}</li></Link>
+                                <Link to='/contact'><li className=" hover:text-red-600">{item.data}</li></Link>
                                 
                             </ul>
                         </div>
