@@ -81,7 +81,7 @@ const DetailedDescription = () => {
            <div className="font-semibold text-[18px]">Price:{`${Detailitem?.Price}$`}</div>
             <div className="flex items-end  justify-between">
             <h1>Instock:5</h1>
-            <input type="number" max='5' step='1' ref={amountInput} id='amount' defaultValue='1' 
+            <input type="number" max='5' min='1' step='1' ref={amountInput} id='amount' defaultValue='1' 
      className='bg-transparent p-2 shadow-sm  shadow-gray-600 h-[90%] w-[18%]'/>
             </div>
            </div>
