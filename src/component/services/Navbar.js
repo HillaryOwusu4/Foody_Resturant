@@ -45,8 +45,8 @@ const Navbar = () => {
              const ShowLogout = isLoggedin ? item.Logout:item.signup
                 return (
                     <div className="w-full flex  h-full" key={index + 'navitems'}>
-                        <div className="w-[15%]  flex  items-center text-[25px] h-full"><img src={item.label
-                        } alt="" /> </div>
+                        <div className="w-[15%]  flex  items-center text-[25px] h-full"><Link to='/'><img src={item.label
+                        } alt="" /> </Link></div>
                         <div className="w-[70%] flex justify-center   h-full">
                             <ul className="w-[70%] h-full flex justify-around ml-[-200px] font-semibold items-center ">
                                 <Link to='/'> <li className=" hover:text-red-600">{item.home}</li></Link>
